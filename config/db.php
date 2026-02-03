@@ -3,9 +3,9 @@
 mysqli_report(MYSQLI_REPORT_OFF);
 
 $host = "localhost";
-$user = "np03cy4a240059";
-$password = "UPw2ywRgIm";
-$database = "np03cy4a240059";
+$user = "root";
+$password = "";
+$database = "error_db";
 
 // standard connection setup
 $conn = mysqli_connect($host, $user, $password, $database);
